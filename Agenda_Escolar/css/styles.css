@@ -1,0 +1,152 @@
+
+/* Cabecera */
+
+h1{
+    text-align: center;
+    font-family: Yellowtail;
+    font-size: 5rem; 
+    color: brown;
+}
+
+h1 + h1{
+    margin-bottom: 1.5625rem; 
+    position: relative;
+    bottom: 5.125rem; 
+}
+
+/* Apartados */
+
+h3{
+    position: relative;
+    bottom: 3.125rem; 
+    justify-content: center;
+    font-family: Lobster;
+    font-size: 1.75rem; 
+    color: rgb(175, 77, 77);
+}
+
+img{
+    width: 2.8125rem; 
+    margin-right: 13.75rem; 
+    position: relative;
+    top: 0.9375rem; 
+}
+
+.apartado{
+    background-color: rgba(255, 162, 128);
+    border-radius: 4.6875rem; 
+    width: 20.3125rem; 
+    text-align: center;
+    margin-left: 48.4375rem; 
+}
+
+/* Tabla */
+
+th{
+    background-color: #fffacd;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    font-size: 1.125rem; 
+    text-align: center;
+    width: 9.375rem; 
+    padding: 0.9375rem; 
+    font-family: Mono;
+}
+
+/* Colores de módulos */
+
+.servidor{
+    background-color: rgba(255, 158, 158);
+}
+
+.ingles{
+    background-color: #9ec8ff;
+}
+
+.cliente{
+    background-color: rgba(179, 255, 158);
+}
+
+.empresa{
+    background-color: gray;
+}
+
+.diseño{
+    background-color: #cd9eff;
+}
+
+.despliegue{
+    background-color: rgba(255, 158, 208);
+}
+
+.recreo{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Fondo */
+
+body{
+    background-color: rgba(189, 255, 249);
+}
+
+/* Secciones */
+
+h2{
+    margin-bottom: 3.125rem; 
+    text-decoration: underline;
+    background-color: rgba(211, 224, 150);
+    padding: 1.25rem; 
+    font-family: Lobster;
+    font-size: 2.5rem; 
+    color: rgb(175, 77, 77);
+}
+
+section{
+    margin-left: 9.375rem; 
+    width: 80%;
+    margin-top: 12.5rem; 
+    background-color: aquamarine;
+    padding: 1.875rem; 
+    border: 0.125rem dotted rgba(47, 0, 255); 
+}
+
+/* Lista y contacto */
+
+li, label{
+    font-family: Mono;
+}
+
+p{
+    width: 75%;
+    padding: 0.5rem; 
+    border: 1px solid black;
+}
+
+p + p{
+    position: relative;
+    justify-content: center;
+    bottom: 1.25rem; 
+}
+
+/* Font-face */
+
+@font-face {
+    font-family: Yellowtail;
+    src: url("../fonts/Yellowtail-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("../fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: Mono;
+    src: url("../fonts/XanhMono-Italic.ttf");
+}
